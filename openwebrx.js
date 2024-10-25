@@ -50,7 +50,7 @@ function zoomOutOneStep() {
 }
 
 function zoomInTotal() {
-    zoom_set(zoom_levels.length - 1);
+    zoom_set(zoom_levels.length / 2);
 }
 
 function zoomOutTotal() {
