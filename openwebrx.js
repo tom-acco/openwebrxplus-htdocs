@@ -807,8 +807,8 @@ function canvas_mousewheel(evt) {
 }
 
 
-var zoom_max_level_hps = 33; //Hz/pixel
-var zoom_levels_count = 14;
+var zoom_max_level_hps = 1; //Hz/pixel
+var zoom_levels_count = 60;
 
 function get_zoom_coeff_from_hps(hps) {
     var shown_bw = (window.innerWidth * hps);
