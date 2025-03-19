@@ -266,9 +266,10 @@ input[type=range]:disabled {
 
 #webrx-canvas-background {
     flex-grow: 1;
-	background-image: url('../gfx/openwebrx-background-cool-blue.png');
+	background: url('../gfx/openwebrx-background-cool-blue.png') rgba(26, 31, 115, 0.8);
+	background-blend-mode: multiply;
 	background-repeat: no-repeat;
-	background-color: #1e5f7f;
+	background-color: #1a1f73;
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
